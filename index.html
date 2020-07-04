@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            amanex_hospital_manager
+        </title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+                function myfunction1(){
+                    window.alert("COMING SOON !!");
+                }
+                var number;
+                var number2;
+                function myfunction2(number){
+                                           
+                     document.getElementById('mainWindow').style.visibility='hidden';
+                     if(number==1){
+                     document.getElementById('videocontent').style.visibility='unset';
+                     }
+                     else{
+                        document.getElementById('videocontent2').style.visibility='unset';
+                     }
+                }
+                function mybackfunction1(number2){
+                    document.getElementById('mainWindow').style.visibility='unset';
+                    if(number2==1){
+                    document.getElementById('videocontent').style.visibility='hidden';
+                    }
+                    else{
+                     
+                        document.getElementById('videocontent2').style.visibility='hidden';
+                        
+                    }
+                }
+        </script>
+
+    </head>
+    <body>
+            <div id="mainWindow">
+                <div id="upper">
+                    <div id="header">
+                        amanex Hospital Manager
+                    </div>
+                    <div id="creater">
+                        Creater:Aman Kumar
+                    </div>
+                    <div id="profile">
+                        Visit Profile:
+                        
+                        <a href="https://github.com/Amankumar-bit">https://github.com/Amankumar-bit</a>
+                    </div>
+
+                </div>
+                <div id="combine">
+                    <div class="content">
+                            This is the Hospital Management System powered by amanex.
+                       This is the Project of java GUI .The IT system has revolutionised the field of medicine.
+                        In this fast-paced world of medicine, it is a daunting task to manage a multi-speciality hospital. 
+                        A hospital management system (HMS) is a computer or web based system that facilitates managing the 
+                        functioning of the hospital or any medical set up1.
+                        This system or software will help in making the whole functioning paperless. 
+                        It integrates all the information regarding patients, doctors, staff, hospital administrative details etc.into one software. 
+                        It has sections for various professionals that make up a hospital.
+                        click below to visit code and overview video.
+                    </div>
+                    <div class="button">
+                        
+                        <div id="bun1" onclick="myfunction1()">VISIT CODE DIRECTORY</div>
+                        <div id="bun2" onclick="myfunction2(1)">VIDEO OVERVIEW PART-1</div>
+                        <div id="bun3" onclick="myfunction2(2)">VIDEO OVERVIEW PART-2</div>
+
+                    </div>
+                </div>
+                
+
+
+            </div>
+            <div id="videocontent">
+                <div onclick="mybackfunction1(1)" id="back"> <-- Back To Main Menu --></div>
+         
+                <video src="images/screen-recorder-wed-jun-17-2020-19-43-55.mp4" controls="controls" id="video" autoplay loop muted ></video>
+            
+            </div>
+            <div id="videocontent2">
+                <div onclick="mybackfunction1(2)" id="back"> <-- Back To Main Menu --></div>
+         
+                <video src="images/screen-recorder-wed-jun-17-2020-20-00-26.mp4" controls="controls" id="video" autoplay loop muted ></video>
+            
+            </div>
+
+
+
+    </body>
+</html>
