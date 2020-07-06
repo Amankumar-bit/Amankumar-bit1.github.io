@@ -10,7 +10,7 @@ a{
 body{
     background: url("images/3902.jpg");
 
-  background-attachment: fixed;
+  background-attachment:static;
 background-size:cover;
 
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@ position: fixed;
 /* height:800px; */
 height:100vh;
 width:100%;
-background-color: red;
+background-color: green;
 /* z-index:0; */
 
 
