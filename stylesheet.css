@@ -309,13 +309,15 @@ cursor: pointer;
      }
      #video{
         animation:move4i 0.2s linear forwards;
-        top:10%;
+        top:7%;
     height:600px;
    min-width:650px;
-   left: -6%;
-
-        
+   left: -24%;
     }     
+    #back{
+
+        right:30px;
+    }
 }
 
 @media(max-width:480px){
