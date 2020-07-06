@@ -221,7 +221,7 @@ position:fixed;
 color:whitesmoke;
 
 border-radius:50px;
-font-size: 27px;
+font-size: 29px;
 
 font-family:Arial, Helvetica, sans-serif;
 
@@ -295,7 +295,10 @@ cursor: pointer;
    }
    #video{
     animation:move4i 0.2s linear forwards;
-    
+   height:380px;
+   width:150vw;
+    top:170px;
+    left:-140px;
 }
 
 #back{
