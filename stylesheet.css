@@ -288,7 +288,7 @@ cursor: pointer;
     animation:move4i 0.2s linear forwards;
    top:15%;
     height:70%;
-    width:85%;
+    width:75%;
     left:-15% 
 }
 #back{
@@ -309,14 +309,14 @@ cursor: pointer;
      }
      #video{
         animation:move4i 0.2s linear forwards;
-        top:7%;
+        top:10%;
     height:600px;
-   min-width:650px;
-   left: -24%;
+   min-width:550px;
+   left: -14%;
     }     
     #back{
 
-        right:30px;
+        /* right:30px; */
     }
 }
 
