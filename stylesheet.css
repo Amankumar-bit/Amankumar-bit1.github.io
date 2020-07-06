@@ -285,7 +285,7 @@ cursor: pointer;
    }
    #video{
     animation:move4i 0.2s linear forwards;
-   top:1%;
+   top:2%;
     height:100%;
     width:90%;
     left:-15% 
