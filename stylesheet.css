@@ -1,6 +1,7 @@
 body,html{
     margin:0;
     padding:0;
+overflow:hidden;
 }
 
 a{
@@ -21,10 +22,10 @@ background-size:cover;
 position: absolute;
 top:0%;
 left:0%;
-/* height:800px; */
-height:100vh;
+height:800px;
+/* height:100vh; */
 width:100%;
-background-color: yellow;
+/* background-color: yellow; */
 /* z-index:0; */
 
 
@@ -172,9 +173,10 @@ cursor:pointer;
     background-color:orangered;
 }
 #videocontent{
-position:fixed;
-    margin:0;
-    padding:0;
+position: absolute;
+    
+    top:0%;
+    left:0%;
     height:100%;
     width:100%;
    visibility: hidden;
@@ -187,7 +189,7 @@ position:fixed;
    /* z-index:2; */
 }
 #videocontent2{
-    position: fixed;
+    position: absolute;
     margin:0;
     padding:0;
     height:100%;
