@@ -17,9 +17,11 @@
                      document.getElementById('mainWindow').style.visibility='hidden';
                      if(number==1){
                      document.getElementById('videocontent').style.visibility='unset';
+                     document.getElementById('videocontent2').style.visibility='hidden';
                      }
                      else{
                         document.getElementById('videocontent2').style.visibility='unset';
+                        document.getElementById('videocontent').style.visibility='hidden';
                      }
                 }
                 function mybackfunction1(number2){
@@ -77,16 +79,20 @@
 
             </div>
             <div id="videocontent">
-                <div onclick="mybackfunction1(1)" id="back"> <-- Back To Main Menu --></div>
-         
-                <video src="images/screen-recorder-wed-jun-17-2020-19-43-55.mp4" controls="controls" id="video" autoplay loop muted ></video>
-            
+                <div onclick="mybackfunction1(1)" id="back"> ^-- Back To Main Menu --^ </div>
+               
+                    <video  controls id="video" autoplay loop muted >
+                        <source src="images/screen-recorder-wed-jun-17-2020-19-43-55.mp4"></source>
+                    </video>
+                    
             </div>
             <div id="videocontent2">
-                <div onclick="mybackfunction1(2)" id="back"> <-- Back To Main Menu --></div>
-         
-                <video src="images/screen-recorder-wed-jun-17-2020-20-00-26.mp4" controls="controls" id="video" autoplay loop muted ></video>
-            
+                <div onclick="mybackfunction1(2)" id="back"> ^-- Back To Main Menu --^</div> 
+               
+                    <video  controls="controls" id="video" autoplay loop muted >
+                        <source src="images/screen-recorder-wed-jun-17-2020-20-00-26.mp4"></source>
+                    </video>
+               
             </div>
 
 

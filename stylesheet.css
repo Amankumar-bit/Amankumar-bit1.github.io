@@ -165,11 +165,14 @@ text-align: center;
 text-shadow: 1.5px 1.5px black;
 cursor:pointer;
 }
-
+#content{
+    background-color:orangered;
+}
 #videocontent{
+position:fixed;
     margin:0;
     padding:0;
-    height:95%;
+    height:100%;
     width:100%;
    visibility: hidden;
    /* background-color: black; */
@@ -181,9 +184,10 @@ cursor:pointer;
    z-index:2;
 }
 #videocontent2{
+    position: fixed;
     margin:0;
     padding:0;
-    height:95%;
+    height:100%;
     width:100%;
    visibility: hidden;
    /* background-color: black; */
@@ -206,14 +210,18 @@ cursor:pointer;
    
    z-index:2;
 }
+
 #back{
-    margin-top: 5px;
-    width:180px;;
-color:orangered;
+    position: relative;
+    top:5px;
+    width:180px;
+color:green;
 margin:0 auto;
 /* padding-left:46%;/ */
 font-family: 'Times New Roman', Times, serif;
 background-color: rgb(0,0,0,0.8);
+/* background-color: red; */
+text-shadow: 0.7px 0.7px white;
 cursor: pointer;
 }
 
@@ -241,12 +249,7 @@ cursor: pointer;
 
 }
 @media(max-width:990px){
-    #video{
-        animation:move4i 0.2s linear forwards;
-        min-width:450px;
-        /* height:00px; */
-        left:10%; 
-    }
+    
 }
 
 @media(max-width:800px){
@@ -268,25 +271,37 @@ cursor: pointer;
        margin-top:10px;
        width:240px;
    }
-#video{
+   #video{
     animation:move4i 0.2s linear forwards;
-    min-width:650px;
-    left:0%; 
+   top:10%;
+    height:80%;
+    width:100%;
+    /* left:20%  */
+}
+#back{
+    animation:move4i 0.2s linear forwards;
+    position:absolute;
+    right:-70px;
+    top:46%;
 }
 }
 
 @media(max-width:600px){
 
      #header{
-         font-size: 2.3em;
+         font-size: 2.4em;
      }
      .content{
          width:80%
      }
      #video{
         animation:move4i 0.2s linear forwards;
-        min-width:650px;
-        left:-10%; 
+        top:10%;
+    height:600px;
+   min-width:650px;
+   left: -6%;
+
+        
     }     
 }
 
@@ -294,7 +309,8 @@ cursor: pointer;
      
     #video{
         animation:move4i 0.2s linear forwards;
-        min-width:650px;
+        
+        width:80%;
         left:-20% 
     }     
 }
