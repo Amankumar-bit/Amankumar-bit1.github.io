@@ -18,11 +18,11 @@ background-size:cover;
 }
 
 #mainWindow{
-position: fixed;
+/* position: fixed; */
 /* height:800px; */
 height:100vh;
 width:100%;
-/* background-color: red; */
+background-color: red;
 /* z-index:0; */
 
 
@@ -273,7 +273,7 @@ cursor: pointer;
 
 @media(max-width:800px){
     body{
-        overflow-y: scroll;
+        overflow-y: auto;
     }
     #header{
         font-size: 2.1em;
