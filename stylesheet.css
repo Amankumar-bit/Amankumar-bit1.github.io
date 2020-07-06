@@ -225,6 +225,7 @@ background-color: rgb(0,0,0,0.8);
 /* background-color: red; */
 text-shadow: 0.7px 0.7px white;
 cursor: pointer;
+visibility: hidden;
 }
 
 
