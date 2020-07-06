@@ -285,15 +285,15 @@ cursor: pointer;
    }
    #video{
     animation:move4i 0.2s linear forwards;
-   top:15%;
-    height:74%;
-    width:85%;
+   top:1%;
+    height:100%;
+    width:90%;
     left:-15% 
 }
 #back{
     animation:move4i 0.2s linear forwards;
     position:absolute;
-    right:5px;
+    right:-25px;
     top:46%;
 }
 }
