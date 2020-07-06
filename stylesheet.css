@@ -296,6 +296,7 @@ cursor: pointer;
     position:absolute;
     right:-70px;
     top:46%;
+visibility: hidden;
 }
 }
 
@@ -315,7 +316,7 @@ cursor: pointer;
    left: -14%;
     }     
     #back{
- visibility: hidden;
+ /* visibility: hidden; */
         /* right:30px; */
     }
 }
