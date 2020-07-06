@@ -89,7 +89,7 @@ border-radius: 2px;
 padding:10px;
     background-color: whitesmoke;
 margin: 0 auto;
-text-transform: capitalize;
+/* text-transform: capitalize; */
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #combine{
@@ -271,7 +271,9 @@ cursor: pointer;
 }
 
 @media(max-width:800px){
-    
+    body{
+        overflow-y: scroll;
+    }
     #header{
         font-size: 2.1em;
     }
@@ -341,8 +343,78 @@ cursor: pointer;
     }
 }
 
+@media(max-width:380px){
+     
+    #header{
+        font-size: 2em;
+    }
+    .content{
+        font-size:12px;
+    }
+   
+    #video{
+        animation:move4i 0.2s linear forwards;
+       height:380px;
+       width:150vw;
+        top:170px;
+        left:-140px;
+    }
+}
 
+@media(max-width:366px){
+    #header{
+        font-size: 1.5em;
+    }
+}
 
+@media(max-width:270px){
+     
+    #bun1{
+        width:150px;
+        font-size: small;
+    }
+    #bun2{
+        width:150px;
+        font-size: small;
+    }
+    #bun3{
+        width:150px;
+        font-size: small;
+    }
+}
+@media(max-width:190px){
+     
+    #header{
+        font-size: 1.3em;
+    }
+
+    .content{
+        font-size:9px;
+    }
+
+    #video{
+        animation:move4i 0.2s linear forwards;
+       height:380px;
+       width:150vw;
+        top:170px;
+        left:-140px;
+    }
+    #creater{
+        font-size: 0.8em;
+    }
+    #bun1{
+        width:120px;
+        font-size: small;
+    }
+    #bun2{
+        width:120px;
+        font-size: small;
+    }
+    #bun3{
+        width:120px;
+        font-size: small;
+    }
+}
 
 
 
