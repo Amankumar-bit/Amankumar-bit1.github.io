@@ -99,7 +99,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     display:flex;
 flex-direction: column;
 height:550px;
-z-index:0;
+/* z-index:0; */
 /* background-color:red; */
 }
 .button{
@@ -182,7 +182,7 @@ position:fixed;
    
      background-repeat: no-repeat;
    
-   z-index:2;
+   /* z-index:2; */
 }
 #videocontent2{
     position: fixed;
@@ -196,7 +196,7 @@ position:fixed;
    background-size:cover;
    
      background-repeat: no-repeat;
-   z-index:2;
+   /* z-index:2; */
 }
 #video{
     /* padding-top:5%; */
@@ -209,7 +209,7 @@ position:fixed;
    
   
    
-   z-index:2;
+   /* z-index:2; */
 }
 
 #back{
