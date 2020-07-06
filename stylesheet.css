@@ -295,9 +295,9 @@ cursor: pointer;
    }
    #video{
     animation:move4i 0.2s linear forwards;
-   height:380px;
-   width:150vw;
-    top:170px;
+   height:390px;
+   width:160vw;
+    top:165px;
     left:-140px;
 }
 
@@ -322,8 +322,11 @@ cursor: pointer;
      }
      #video{
         animation:move4i 0.2s linear forwards;
-        
-    }     
+       height:385px;
+       width:155vw;
+        top:170px;
+        left:-140px;
+    } 
     
 }
 
@@ -331,9 +334,11 @@ cursor: pointer;
      
     #video{
         animation:move4i 0.2s linear forwards;
-        
-    }     
-
+       height:380px;
+       width:150vw;
+        top:170px;
+        left:-140px;
+    }
 }
 
 
